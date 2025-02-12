@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.login-box {
+  border: 1px solid;
+  width: 500px;
+  margin: 10px;
+  padding: 30px;
+  border-color: lightgray;
+  border-radius: 10px;
+}
+
+.login-box > div {
+  display: flex;
+  /* display : 자식요소에게 적용할 수 있는 정렬 규칙 */
+  /* flex는 좌우로 나란히 */
+  flex-direction: column;
+  /* column => 위아래정렬 */
+  row-gap: 15px;
+  align-items: center;
+}
+
+/* .클래스명 .클래스명 => 앞에있는 클래스를 선택*/
+.login-box .btn {
+  border: 1px solid;
+  width: 300px;
+  display: flex;
+  background-color: #02c75a;
+  color: white;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  border-radius: 5px;
+}
+
+.login-box .btn :first-child {
+  font-weight: 900;
+  font-size: 20px;
+}
+.login-box .btn :last-child {
+  font-size: 16px;
+}
+.login-box .wrap {
+  display: flex;
+  column-gap: 5px;
+  color: gray;
+}
+
+.login-box .btn,
+#find_id,
+#find_pw,
+#sign_up {
+  cursor: pointer;
+}
+
+.login-box .btn:hover,
+#find_id:hover,
+#find_pw:hover,
+#sign_up:hover {
+  opacity: 0.85;
+}
+
+.login-box .btn:active,
+#find_id:active,
+#find_pw:active,
+#sign_up:active {
+  opacity: 0.95;
+  transform: 0.95;
+}
