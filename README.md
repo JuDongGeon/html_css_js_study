@@ -1,29 +1,19 @@
 # HTML
 
-    1. HTML이란?(HyperTextMarkdownLanguage)
-        - 웹페이지를 만드는 언어
-        - 웹 페이지 뼈대
+    1. a tag 사용법 : 네비게이션
+        - href 속성에 값을 부여함
+            1. url : 다른 웹사이트로 이동함
+                - 주소값을 입력하면 되는 http 또는 http + ://를 적어야 작동함
+
+            2. #id : 해당 id와 동일한 id를 가진 태그로 이동함 (현재 페이지 내)
+                - 이동시킬 태그에 id값을 넣은 뒤 a 태그 href 안에 id와 동일한 값을 넣어야 연결됨.
+                - 연결된 태그를 누를때마다 주소창 끝부분에 해당 id가 자동입력됨
+
+            3. 파일명 : 예시-> index.html 해당 파일로 이동 (페이지 전환)
+                - href 안에 파일명 안에 파일명을 작성하면 됨
+
+            4. 파일 다운로드 : 파일
 
 # CSS
 
-    1. CSS란? (CascadingStyleSheet)
-        - 웹 꾸미기
-
-        ## in-line style
-            <div style = "display:flex;">
-
-        ## style tag
-            <head>
-                <style>
-                div{
-                    display : flex;
-                }
-                </style>
-
-        ## 외부 스타일시트 연결
-            1. htmml > head안에 link 태그로 스타일시트 연결
-            2. styleFile.css를 만들어서 스타일 작성
-
 # JS
-
-    1. 기능 구현 (웹 개발의 90%이상)
