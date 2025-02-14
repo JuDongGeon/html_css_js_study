@@ -57,7 +57,7 @@
 .login-box .btn,
 #find_id,
 #find_pw,
-#sign_up,
+#sign_u,
 .login-modal button {
   cursor: pointer;
 }
@@ -84,7 +84,8 @@
   padding: 20px;
   border: 1px solid lightgray;
   border-radius: 10px;
-  /* position : fixed : 화면기준 고정 */
+
+  /* position:fixed 화면기준으로 고정 */
   position: fixed;
   top: 50%;
   left: 50%;
@@ -93,11 +94,11 @@
 }
 
 .login-modal form {
-  border: 1px solid;
   display: flex;
   flex-direction: column;
   row-gap: 20px;
 }
+
 .login-modal div {
   display: flex;
   flex-direction: column;
@@ -118,7 +119,7 @@
   padding: 0 10px;
 }
 
-.login-modal input {
+.login-modal input:focus {
   border-color: #02c75a;
 }
 
@@ -134,4 +135,6 @@
   position: absolute;
   top: 0;
   right: 0;
+  height: auto;
+  padding: 5px;
 }

@@ -15,7 +15,6 @@ button.onclick = () => {
       const h1 = document.querySelector("h1");
       const time = new Date().toLocaleTimeString();
       h1.innerText = time;
-      h1.style.color = black;
     }, 1000);
   } else {
     if (id) {
