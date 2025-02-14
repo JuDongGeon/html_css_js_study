@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원가입창</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>개인정보털리는 회원가입하기</h1>
+    <form>
+      <div>
+        <div class="label">
+          <label for="id">ID</label>
+        </div>
+        <div class="input">
+          <input type="text" placeholder="아이디를 입력해주세요" id="id" />
+        </div>
+        <div class="label">
+          <label for="pw">비밀번호</label>
+        </div>
+        <div class="input">
+          <input type="text" placeholder="비밀번호를 입력해주세요" id="pw" />
+        </div>
+        <div class="label">
+          <label for="re-pw">비밀번호 재입력</label>
+        </div>
+        <div class="input">
+          <input
+            type="text"
+            placeholder="비밀번호 한번 더 입력하세요"
+            id="re-pw"
+          />
+        </div>
+        <div class="label">
+          <label for="birth">생년월일</label>
+        </div>
+        <div class="input">
+          <input type="text" placeholder="예) 001122" id="birth" />
+        </div>
+        <div class="sing-up">
+          <input type="submit" value="  가입하기  " />
+          <input type="reset" value="정보초기화" />
+        </div>
+      </div>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>

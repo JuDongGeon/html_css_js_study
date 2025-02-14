@@ -14,6 +14,60 @@
 
             4. 파일 다운로드 : 파일
 
+    2. form 태그 : 양식을 제출하는 의미
+         - 인풋창 입력하고 Enter 했을때 작동하면 약식 : 폼
+         - ctrl + shift + c 개발자도구로 form 태그 확인
+            ex - 회원가입, 인스타 댓글, 카톡 채팅창
+         - 추가 수정(Create/Update) 용도
+         - 사용 방법
+            - label + input + select : 내용물
+            - button : 동작하는 버튼
+         - 제출되었을때 무조건 새로고침을 하는 특징을 가짐 => 자바스크립트 설정으로 방지 가능
+
+    3.input 태그
+         - type : 글자 또는 비밀번호 암호화 가능 ctrl + spacebar
+         - label 태그와 연결가능 => label의 for 값과 input id값을 동일하게 주면 됨
+
+    4. select 태그
+         - label과 연결해서 사용하기 좋음
+         - option 태그와 사용함
+            ex>
+            <select>
+               <option value="옵션1">option1</option>
+            </select>
+            설명 : 보이는 글자가 아닌 op
+         - ㅠㅍㅁ
+
 # CSS
 
 # JS
+
+# 오늘의 실습
+
+    1. form, div, label, input, button 태그 사용해서 회원가입 폼 뼈대 만들기
+        - 영어로 된 아이디가 있어야함
+        - 비밀번호가 있어야 함
+        - 새로운 비밀번호가 있어야 하고 비밀번호가 같은지 유효검사를 해야함
+        - 생년원일 // YYMMDD
+        - 회원가입 / 취소 버튼 만들기
+
+    2. styling 하기
+        - 자유롭게
+
+    3. 자바스크립트로 양식 다루기
+        - 변수로 잡을 것들
+            1. form
+            2. userid
+            3. password
+            4. confirmPassword
+            5. 생년월일
+
+        - 할것들
+            1. form + addEventListener 이벤트는 submit
+                1-1. 새로고침 방지
+                1-2. userid 입력했는지 검사 => 미입력시 input창 포커스
+                1-3. password 입력했는지 검사 => 미입력시 input창 포커스
+                1-4. confirmPassword랑 같은지 검사 => 다를 시 input창 포커스
+            2. 생년월이 6자리인지 검사
+            3. 다 입력되면 회원가입 축하멘트 출력
+            4. 입력 취소시 취소 멘트 출력
