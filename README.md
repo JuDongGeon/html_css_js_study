@@ -1,29 +1,13 @@
-# HTML
+# 변수 선언하기
 
-    1. HTML이란?(HyperTextMarkdownLanguage)
-        - 웹페이지를 만드는 언어
-        - 웹 페이지 뼈대
+1. 가위, 바위, 보에 해당하는 변수 만들기
 
-# CSS
+   - const s = { name : '가위', value : 0}
+   - const r = { name : '바위', value : 1}
+   - const p = { name : '보', value : 2}
 
-    1. CSS란? (CascadingStyleSheet)
-        - 웹 꾸미기
+2. 내 입력값과 상대 입력값을 담을 배열 선언
 
-        ## in-line style
-            <div style = "display:flex;">
+3. 가위, 바위, 보 이미지를 담아둘 배열 선언, 자료먼저 저장해두기
 
-        ## style tag
-            <head>
-                <style>
-                div{
-                    display : flex;
-                }
-                </style>
-
-        ## 외부 스타일시트 연결
-            1. htmml > head안에 link 태그로 스타일시트 연결
-            2. styleFile.css를 만들어서 스타일 작성
-
-# JS
-
-    1. 기능 구현 (웹 개발의 90%이상)
+4.
