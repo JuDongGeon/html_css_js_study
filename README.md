@@ -1,29 +1,25 @@
-# HTML
+# dice 게임 만들기
 
-    1. HTML이란?(HyperTextMarkdownLanguage)
-        - 웹페이지를 만드는 언어
-        - 웹 페이지 뼈대
+1.  컴퓨터랑 붙는 게임
 
-# CSS
+    - 나, 컴퓨터 배열이 존재
 
-    1. CSS란? (CascadingStyleSheet)
-        - 웹 꾸미기
+2.  각자 주사위 4개를 동시에 굴림
 
-        ## in-line style
-            <div style = "display:flex;">
+    - 각 주사위별 시간차를 두어서 재미요소 추가 (setTimeout)
+    - 0.1초마다 주사위가 돌아가게끔 구현 (Setinterval)
+    - 주사위 마다 각자의 값이 존재하게끔 구현\
+    - index \* 1초 한 값만큼 딜레이가 있게끔 구현
 
-        ## style tag
-            <head>
-                <style>
-                div{
-                    display : flex;
-                }
-                </style>
+    - generateRandomNumber 라는 함수를 만들어서 1~6까지의 숫자가 나오도록 구현
+    - .1 초마다 각 주사위의 값을 저장해둔 index 값을 바꿔서 주사위의 모양구형
 
-        ## 외부 스타일시트 연결
-            1. htmml > head안에 link 태그로 스타일시트 연결
-            2. styleFile.css를 만들어서 스타일 작성
+3.  주사위 값을 합산한 값이 높으면 승리
 
-# JS
+    - 배열의 모든 값을 더하는 방법 (reduce)
 
-    1. 기능 구현 (웹 개발의 90%이상)
+4.  주사위 굴리기 버튼을 클릭해서 시작
+
+5.  주사위가 모두 돌아가면 게임 끝나면서 버튼 문구를 한 판 더!
+
+6.  이긴횟수를 스코어로 출력
