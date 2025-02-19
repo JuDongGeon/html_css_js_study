@@ -1,29 +1,10 @@
-# HTML
+#오목 게임
 
-    1. HTML이란?(HyperTextMarkdownLanguage)
-        - 웹페이지를 만드는 언어
-        - 웹 페이지 뼈대
+1. 칸 만들기 30x30 등 사이즈 정하기
 
-# CSS
+   - 가운데로 십자모양의 줄이 지나가게끔 작성
+   - x, y 값을 어떻게 줄지 고민
 
-    1. CSS란? (CascadingStyleSheet)
-        - 웹 꾸미기
+2. 바둑알 모양 내 차례와 상대방 차례가 존재하고 각각의 돌 색을 정하할 수 있도록 함
 
-        ## in-line style
-            <div style = "display:flex;">
-
-        ## style tag
-            <head>
-                <style>
-                div{
-                    display : flex;
-                }
-                </style>
-
-        ## 외부 스타일시트 연결
-            1. htmml > head안에 link 태그로 스타일시트 연결
-            2. styleFile.css를 만들어서 스타일 작성
-
-# JS
-
-    1. 기능 구현 (웹 개발의 90%이상)
+3. 돌의 좌표값을 어떤 배열에 담아두고 누가 이겼는지에 대한 로직 구현
